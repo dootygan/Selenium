@@ -18,7 +18,7 @@ service = ChromeService(executable_path=ChromeDriverManager().install())
 # Create a WebDriver object with the options
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
-sleep(2)
+sleep(12)
 
 # Open the web page
 driver.get("https://login.yahoo.com/?.src=ym&pspid=159600001&activity=mail-direct&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd")
