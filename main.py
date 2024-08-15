@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 # Set up Chrome options
 chrome_options = Options()
 chrome_options.add_argument("--incognito")
-chrome_options.add_argument("--headless")  # Note: `--headless` should be added to the same instance of options
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode
 
 # Set up Chrome driver using ChromeDriverManager
 service = ChromeService(executable_path=ChromeDriverManager().install())
